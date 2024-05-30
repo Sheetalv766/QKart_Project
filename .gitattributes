@@ -1,0 +1,26 @@
+# Root folder
+.gitattributes merge=copy-merge
+.gitignore merge=copy-merge
+run_assesment.sh merge=copy-merge
+run_platform_assesment.sh merge=copy-merge
+run_Platform_Assesment.sh merge=copy-merge
+selenium-run.sh merge=copy-merge
+selenium-setup.sh merge=copy-merge
+settings.gradle merge=copy-merge
+
+# __CRIO__
+__CRIO__/metadata.json merge=copy-merge
+
+# .vscode/
+.vscode/launch.json merge=copy-merge
+.vscode/settings.json merge=copy-merge
+.vscode/tasks.json merge=copy-merge
+
+# assesment/
+assesment/** merge=copy-merge
+
+# gradle/
+gradle/** merge=copy-merge
+
+# app/
+app/build.gradle merge=copy-merge
